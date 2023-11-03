@@ -9,21 +9,7 @@ The non-contact monitoring of vital signs, especially the Heart Rate (HR) and Br
 - Tensorflow 1.16
 - Python 3.6
 - OpenCV
-# Dataset Preparation
-Rep-Penn Dataset is not provided here. If you want to create the dataset in the same way, please refer to our paper.
 
-The optional method is generating a heatmap for one-cycle exercise videos, and duplicate&concatenate heatmaps using similar methods introduced in the paper.
-# Running the code
-## Training
-Train from scratch. Please change the keywords ('action' or 'counting') to train corresponding branch. 
-```
-python3 train_multitask.py
-```
-
-## Testing
-```
-python3 eval_multitask.py
-```
 
 # Citation
 If you use this code, please cite the following:
