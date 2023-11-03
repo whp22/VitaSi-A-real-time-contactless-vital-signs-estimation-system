@@ -2,7 +2,7 @@
 This is the official implementation of paper:["VitaSi: A real-time contactless vital signs estimation system"](https://www.sciencedirect.com/science/article/abs/pii/S0045790621003591)
 
 # System Overview
-The inputs are RGB frames from an exercise video. The whole system is mainly composed of 4 parts: MSPN 2D human pose estimation model, joint location calculation, heatmap processing and the multitask model for exercise recognition & counting.
+
 ![](/images/system.JPG)
 
 # Multitask Model
