@@ -1,0 +1,3 @@
+rootProject.name='VitaSi_v1'
+include ':app'
+include ':openCVLibrary3410'
