@@ -1,0 +1,2 @@
+test.tflites filter=lfs diff=lfs merge=lfs -text
+test.tflite filter=lfs diff=lfs merge=lfs -text
